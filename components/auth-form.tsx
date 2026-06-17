@@ -95,14 +95,12 @@ export function AuthForm({ mode }: { mode: "sign-in" | "sign-up" }) {
       <p className="text-center text-sm text-muted-foreground">
         {mode === "sign-up" ? (
           <>
-            ¿Ya tienes cuenta?{" "}
             <Link href="/sign-in" className="font-medium text-foreground underline underline-offset-4">
               Inicia sesión
             </Link>
           </>
         ) : (
           <>
-            ¿Primera vez?{" "}
             <Link href="/sign-up" className="font-medium text-foreground underline underline-offset-4">
               Crea tu cuenta
             </Link>

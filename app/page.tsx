@@ -34,6 +34,7 @@ export default function HomePage() {
                 Ver Boutique <ArrowRight className="ml-2 size-4" />
               </Button>
               <Button
+              
                 render={<Link href="/servicios" />}
                 size="lg"
                 variant="outline"
@@ -46,7 +47,7 @@ export default function HomePage() {
 
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <Image
-              src="/hero-fashion.png"
+              src="/vestidos-hero.png"
               alt="Moda Andrea Garcia"
               fill
               priority
@@ -60,7 +61,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-6xl px-4 py-20">
         <div className="grid gap-8 md:grid-cols-2">
           <BusinessCard
-            image="/hero-fashion.png"
+            image="/vestidos-hero.png"
             tag="Boutique"
             icon={<ShoppingBag className="size-5" />}
             title="Ropa Americana"
